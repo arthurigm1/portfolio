@@ -9,7 +9,8 @@ import { IProjects } from '../../interface/IProjects.interface';
 })
 export class ProjectsComponent {
 
-  public arrayProjects = signal<IProjects[]>([{
+  public arrayProjects = signal<IProjects[]>([
+    {
     src: 'assets/img/projects/vfull.png',
     alt: "Projeto",
     title: "Titulo projeto",
@@ -22,6 +23,6 @@ export class ProjectsComponent {
         href: 'https://vidafullstack.com.br'
       },
     ],
-  }
+  },
 ]);
 }

@@ -1,0 +1,56 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &.btn-primary,&.btn-secondary,&.btn-third{
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 7px;
+    }
+   &.btn-primary{
+        color: var(--white);
+        background: var(--secondary);
+        &:hover{
+            background:var(--secondary-02) ;
+            color: var(--black);
+        }
+    }
+        &.btn-secondary{
+        color: var(--white);
+        background: var(--secondary);
+        &:hover{
+            background:var(--secondary-02) ;
+           color: var(--black);
+        }
+    }
+    &.btn-third{
+                color: var(--white);
+        background: var(--secondary);
+        &:hover{
+            background:var(--secondary-02) ;
+           color: var(--black);
+        }
+    }
+
+        @keyframes anima{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+&:hover{
+    animation-name: anima;
+    animation-duration:0.5s ;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+}
