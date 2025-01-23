@@ -18,13 +18,48 @@ export class ProjectsComponent {
     src: 'assets/img/projects/temig.png',
     alt: "Projeto IA",
     title: "Sistema Especialista",
-    width: '200px',
-    height: '180px',
+    width: '250px',
+    height: '150px',
     description: '<p>Este projeto é um Sistema Especialista Inteligente (IA) desenvolvido com JavaScript puro, com armazenamento local utilizando localStorage. A aplicação permite a criação e execução de sistemas especialistas, utilizando regras, fatos e inferência para tomar decisões automáticas baseadas em dados fornecidos pelo usuário.</p>',
     links: [
       {
         name: 'Conheca o Site',
         href: 'https://cotemigtrabalhoia.netlify.app/'
+      },
+      {
+        name: 'Repositório GitHub',
+        href: 'https://github.com/arthurigm1/Trabalho-Sistemas-IA'
+      },
+      
+    ],
+    
+  },
+     {
+    src: 'assets/img/projects/mainlogo.png',
+    alt: "Lista de Tarefas",
+    title: "Arthur TaskList",
+    width: '250px',
+    height: '150px',
+       description: `
+      <p>
+        O <strong>Arthur TaskList</strong> é uma aplicação web desenvolvida para gerenciar tarefas de forma simples e eficiente, permitindo aos usuários adicionar tarefas, visualizar a lista de atividades pendentes e marcá-las como concluídas assim que finalizadas.
+      </p>
+      <p>
+        <strong>Front-End:</strong> Desenvolvido com Angular, o front-end oferece uma interface interativa e amigável, permitindo que o usuário navegue e gerencie suas tarefas de maneira intuitiva.
+      </p>
+      <p>
+        <strong>Back-End:</strong> Implementado em Java utilizando o framework Spring Boot, o back-end fornece uma API RESTful para manipulação de usuarios e senhas, garantindo escalabilidade e facilidade de manutenção.
+      </p>
+      <p>
+        <strong>Banco de Dados:</strong> Utilizado PostgreSQL para armazenamento persistente de dados, garantindo segurança, integridade e alta performance no gerenciamento das informações.
+      </p>`,    links: [
+      {
+        name: 'Conheca o Site',
+        href: 'https://listatarefasagm1.netlify.app/'
+      },
+        {
+        name: 'Repositório GitHub',
+        href: 'https://github.com/arthurigm1/ListaTarefas'
       },
     ],
   },

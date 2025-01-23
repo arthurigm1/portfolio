@@ -1,11 +1,16 @@
 <div class="container">
     <h2>Projetos Desenvolvidos</h2>
     <ul>
+        <!-- Loop para exibir os itens -->
         @for (item of arrayProjects(); track item) {
         <li>
             <button (click)="opendialog(item)">
                 <img [src]="item.src" [alt]="item.alt" [attr.width]="item.width"
                     [attr.height]="item.height" loading="lazy">
+                <!-- Adicionando os links dentro do botão -->
+                <div class="links-container">
+                    <a *ngFor="let link of item.links" [href]="link.href" target="_blank">{{ link.name }}</a>
+                </div>
             </button>
         </li>
         }
