@@ -18,7 +18,7 @@ export class ProjectsComponent {
       src: 'assets/img/projects/temig.png',
       alt: 'Projeto IA',
       title: 'Sistema Especialista',
-      width: '250px',
+      width: '200px',
       height: '150px',
       description:
         '<p>Este projeto é um Sistema Especialista Inteligente (IA) desenvolvido com JavaScript puro, com armazenamento local utilizando localStorage. A aplicação permite a criação e execução de sistemas especialistas, utilizando regras, fatos e inferência para tomar decisões automáticas baseadas em dados fornecidos pelo usuário.</p>',
@@ -37,8 +37,8 @@ export class ProjectsComponent {
       src: 'assets/img/projects/mainlogo.png',
       alt: 'Lista de Tarefas',
       title: 'Arthur TaskList',
-      width: '250px',
-      height: '150px',
+      width: '200px',
+      height: '100px',
       description: `
       <p>
         O <strong>Arthur TaskList</strong> é uma aplicação web desenvolvida para gerenciar tarefas de forma simples e eficiente, permitindo aos usuários adicionar tarefas, visualizar a lista de atividades pendentes e marcá-las como concluídas assim que finalizadas.
@@ -67,8 +67,8 @@ export class ProjectsComponent {
       src: 'assets/img/projects/pagiinova.png',
       alt: 'PagiInova E-commerce',
       title: 'PagiInova',
-      width: '250px',
-      height: '150px',
+      width: '200px',
+      height: '50px',
       description: `
     <p>
       O <strong>PagiInova</strong> é um e-commerce desenvolvido com foco em inovação e eficiência digital, permitindo que os usuários explorem produtos, façam compras e realizem pagamentos de maneira rápida e segura.
